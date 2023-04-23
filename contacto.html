@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/spinner.css">
+</head>
+<body>
+    
+    <div class="logo contenedor">
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo Principal">
+        </a>
+        
+    </div>
+    
+    <header class="nav-bg">
+        <nav class="contenedor nav">
+            <a class="enlace" href="index.html">Tienda</a>
+            <a class="enlace" href="nosotros.html">Nosotros</a>
+            <a class="enlace activo" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contenedor contacto-grid">
+        <h1 class="heading">Contactanos</h1>
+        <p class="text-contacto centrar-texto">Completa el siguiente formulario y dejanos un mensaje sobre cualquier duda que tengas.</p>
+        <p class="text-contacto centrar-texto" >Te responderemos en la brevedad.</p>
+
+        <form class="form-contacto" id="formulario">
+            <fieldset class="fieldset" id="fieldset">
+                <legend>Completa los siguientes campos</legend>
+
+                <div class="div-label">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Nombre" id="nombre">
+                </div>
+                
+                <div class="div-label">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" placeholder="Apellido" id="apellido">
+                </div>
+                
+
+                <div class="div-label">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" placeholder="Teléfono" id="telefono">
+                </div>
+                
+
+                <div class="div-label">
+                    <label for="email">E-Mail</label>
+                    <input type="text" placeholder="E-Mail" id="email">
+                </div>
+                
+
+                <div class="div-label textarea">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="textarea"></textarea>
+                </div>
+
+                
+                <div id="spinner" class="spinner spinner-hidden">
+                    <div class="sk-circle">
+                        <div class="sk-circle1 sk-child"></div>
+                        <div class="sk-circle2 sk-child"></div>
+                        <div class="sk-circle3 sk-child"></div>
+                        <div class="sk-circle4 sk-child"></div>
+                        <div class="sk-circle5 sk-child"></div>
+                        <div class="sk-circle6 sk-child"></div>
+                        <div class="sk-circle7 sk-child"></div>
+                        <div class="sk-circle8 sk-child"></div>
+                        <div class="sk-circle9 sk-child"></div>
+                        <div class="sk-circle10 sk-child"></div>
+                        <div class="sk-circle11 sk-child"></div>
+                        <div class="sk-circle12 sk-child"></div>
+                    </div>
+                </div>
+                <input class="contacto-submit" id="btn-submit" type="submit" value="Enviar">
+                
+            </fieldset>
+        </form>
+    </main>
+
+
+
+    <footer class="footer">
+        <p class="footer-texto">Ledu Store. Todos los derechos reservados 2023.</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ledu Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="logo contenedor">
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo Principal">
+        </a>
+        
+    </div>
+    
+    <header class="nav-bg">
+        <nav class="contenedor nav">
+            <a class="enlace" href="index.html">Tienda</a>
+            <a class="enlace" href="nosotros.html">Nosotros</a>
+            <a class="enlace" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <h1 class="heading">HTML5</h1>
+
+        <div class="producto">
+
+            <img class="imagen-producto" src="img/7.jpg" alt="Remera a comprar">
+            
+            <div class="div-producto">
+                <p class="texto-producto">Remera de algodón, fabricada con materiales de primera calidad. Nuestros productos destacan por la calidad y confianza que brindamos a nuestros clientes.</p>
+                <div>
+                    <form class="formulario">
+                        <select class="select input-producto">
+                            <option value="" selected disabled>-- Seleccionar Talla --</option>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <input class="input-cant input-producto" type="number" placeholder="Cantidad" min="1">
+                        <input type="submit" class="btn-submit" value="Agregar al Carrito">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-texto">Ledu Store. Todos los derechos reservados 2023.</p>
+    </footer>
+
+</body>
+</html>
